@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.1.17.RELEASE</version>
+  </parent>
+
+  <groupId>com.pocket.payment</groupId>
+  <artifactId>pocket-payment</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <infrastructure>1.0.0.RELEASE</infrastructure>
+  </properties>
+
+  <modules>
+    <module>pocket-payment-common</module>
+    <module>pocket-payment-start</module>
+    <module>pocket-payment-trade</module>
+      <module>pocket-payment-api</module>
+    <module>pocket-payment-plugins</module>
+    <module>pocket-payment-core</module>
+    <module>pocket-payment-trade</module>
+    <module>pocket-payment-plugins</module>
+  </modules>
+  <dependencyManagement>
+<!--    <dependencies>-->
+<!--      <dependency>-->
+<!--        <groupId>com.infrastructure</groupId>-->
+<!--        <artifactId>infrastructure</artifactId>-->
+<!--        <version>${infrastructure}</version>-->
+<!--        <type>pom</type>-->
+<!--        <scope>import</scope>-->
+<!--      </dependency>-->
+<!--    </dependencies>-->
+  </dependencyManagement>
+
+
+
+
+</project>
